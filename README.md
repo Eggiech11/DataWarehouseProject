@@ -6,7 +6,8 @@ Perkenalkan nama saya Eggie Christyandi, Fresh Graduate dari Universitas Gunadar
 Pada Final Task Internship ini, saya diminta untuk memahami case study dan menyelesaikan challenge yang sudah tersedia.
 Berikut merupakan case studynya :
 
-![image](https://github.com/Eggiech11/DataWarehouseProject/assets/109166302/6b3cc830-0a5c-45d9-bd36-edfc940a3747)
+![SS1](https://github.com/Eggiech11/DataWarehouseProject/assets/109166302/c61a06ce-ea54-495c-bf28-c9f004d42a88)
+
 
 
 
