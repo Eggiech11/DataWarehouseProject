@@ -1,5 +1,7 @@
+-- CREATE NEW DATABASE --
 CREATE DATABASE DWH_Project
 
+-- CREATE DIMENSION AND FACT TABLES --
 CREATE TABLE DimProduct (
 	product_id VARCHAR(50) PRIMARY KEY NOT NULL,
 	product_name VARCHAR(255) NOT NULL,
@@ -39,13 +41,16 @@ CREATE TABLE FactSales (
 	REFERENCES DimStatusOrder (status_id)
 );
 
+
+-- Manually add customerName column --
 ALTER TABLE DimCustomer
-ADD customerName VARCHAR(50)
+ADD customerName VARCHAR(50);
 
+-- Update customerName, store the data from first_name and last_name --
 UPDATE DimCustomer
-SET customerName = CONCAT(UPPER(first_name), ' ', UPPER(last_name))
+SET customerName = CONCAT(UPPER(first_name), ' ', UPPER(last_name));
 
-
+-- Create store procedure --
 CREATE PROCEDURE summary_order_status
 (@status_id int) AS
 BEGIN
@@ -69,15 +74,6 @@ END
 
 EXEC summary_order_status @status_id = 2
 
-DROP PROCEDURE summary_order_status
-
-USE DWH_Project
-
-
-
-DROP TABLE DimCustomer
-
-SELECT * FROM DimStatusOrder
 
 
 
