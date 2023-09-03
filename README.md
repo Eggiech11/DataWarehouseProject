@@ -6,15 +6,20 @@ Perkenalkan nama saya Eggie Christyandi, Fresh Graduate dari Universitas Gunadar
 Pada Final Task Internship ini, saya diminta untuk memahami case study dan menyelesaikan challenge yang sudah tersedia.
 Berikut merupakan case studynya :
 
-![image](https://github.com/Eggiech11/DataWarehouseProject/assets/109166302/ebb6f334-6009-4a37-92e6-ec70ed16833d)
+![image](https://github.com/Eggiech11/DataWarehouseProject/assets/109166302/6b3cc830-0a5c-45d9-bd36-edfc940a3747)
+
 
 
 1. Langkah pertama yang perlu dilakukan adalah melakukan restore database yang bernama Staging.bak
-   ![image](https://github.com/Eggiech11/DataWarehouseProject/assets/109166302/5db29350-9e02-4323-b978-d137862db2c3)
+   ![image](https://github.com/Eggiech11/DataWarehouseProject/assets/109166302/86f78c55-aa12-44f3-b8be-fd2b0e5624d7)
+
 2. Kemudian membuat database baru bernama DWH_Project, serta membuat Fact Table dan Dimension Table yang nantinya digunakan untuk menampung data yang berasal dari Staging.bak
-  ![image](https://github.com/Eggiech11/DataWarehouseProject/assets/109166302/e2b71f1b-db4f-496c-b09c-15d6f3a26bb4)
+  ![image](https://github.com/Eggiech11/DataWarehouseProject/assets/109166302/d23ad5b1-4009-4a87-808c-6ef1c066a16b)
+
 3. Membuat ETL Job menggunakan Talend sebagai data pipeline supaya data yang berasal dari Staging.bak dapat dipindahkan ke DWH_Project
-   ![image](https://github.com/Eggiech11/DataWarehouseProject/assets/109166302/e90377b3-4a33-4955-b51d-d5883ccf3e1f)
+   ![image](https://github.com/Eggiech11/DataWarehouseProject/assets/109166302/2f13a0a3-0224-4e01-a8ec-b53d7073e472)
+
 4. Membuat store procedure untuk menampilkan data berdasarkan status pengiriman
-   ![image](https://github.com/Eggiech11/DataWarehouseProject/assets/109166302/7db02246-e3a3-42db-943c-55d0390dcfdd)
+   ![image](https://github.com/Eggiech11/DataWarehouseProject/assets/109166302/c3e7e7f3-1121-4fb2-9f98-f12d47c92ee9)
+
 
